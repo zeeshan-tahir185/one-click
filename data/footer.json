@@ -1,0 +1,88 @@
+{
+  "footer": [
+    {
+      "desc": "2000+ Our clients are subscribe Around the World",
+      "title": "Newsletter",
+      "services": [
+        {
+          "title": "Pages",
+          "top": true,
+          "innerItem": [
+            {
+              "link": "/",
+              "text": "Home"
+            },
+            {
+              "link": "/blog",
+              "text": "Blog"
+            },
+            {
+              "link": "/pricing",
+              "text": "Pricing"
+            },
+            {
+              "link": "/help",
+              "text": "Help"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "title": "Additional Pages",
+          "top": false,
+          "innerItem": [
+            {
+              "text": "Privacy Policy",
+              "link": "/privacy-policy"
+            },
+            {
+              "text": "Terms and conditions",
+              "link": "/tos"
+            },
+            {
+              "text": "Contact us",
+              "link": "/help"
+            }
+          ]
+        }
+      ],
+      "company": [
+        {
+          "title": "For Customers",
+          "top": true,
+          "innerItem": [
+            {
+              "text": "Sign in",
+              "link": "/signin"
+            },
+            {
+              "text": "Sign up",
+              "link": "/signup"
+            },
+            {
+              "text": "API",
+              "link": "/developer/api"
+            }
+          ]
+        }
+      ],
+      "solutions": [
+        {
+          "title": "Products",
+          "top": false,
+          "innerItem": [
+            {
+              "text": "Humanizer",
+              "link": "/humanizer"
+            },
+            {
+              "text": "Undetectable Content Generator",
+              "link": "/undetectable-content-generator"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "sidebar": [
+    {
+      "id": "getstarted",
+      "text": "Getting started",
+      "isShow": true,
+      "list": [
+        {
+          "id": "how-to-use",
+          "text": "How to Use"
+        },
+        {
+          "id": "conversion-modes",
+          "text": "Conversion Modes"
+        },
+        {
+          "id": "expert-tips",
+          "text": "Expert Tips"
+        }
+      ]
+    }
+  ]
+}

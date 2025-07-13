@@ -1,0 +1,210 @@
+{
+  "service": [
+    {
+      "title": "SEO & Better Ranking",
+      "desc": "Boost visibility with natural-sounding content that search engines love.",
+      "icon": "trending-up",
+      "delay": 200
+    },
+    {
+      "title": "Maintain Formatting & Flawless Grammar",
+      "desc": "Eliminate typos while preserving headings, bullet points, links, and more.",
+      "icon": "edit",
+      "delay": 100
+    },
+    {
+      "title": "Beat AI Detectors",
+      "desc": "Bypass ZeroGPT, Originality, GPTZero, and other detection tools with confidence.",
+      "icon": "cpu",
+      "delay": 200
+    },
+    {
+      "title": "Multilingual Support",
+      "desc": "Reach global audiences in 10+ languages without losing authenticity.",
+      "icon": "type",
+      "delay": 100
+    },
+    {
+      "title": "Lightning Mode",
+      "desc": "Produce high-volume content in seconds-perfect for tight deadlines.",
+      "icon": "check-square",
+      "delay": 100
+    },
+    {
+      "title": "Bulk Conversion (coming soon)",
+      "desc": "Convert entire blogs or multiple articles simultaneously.",
+      "icon": "sliders",
+      "delay": 100
+    }
+  ],
+  "timeline": [
+    {
+      "title": "1.Select template",
+      "desc": "Easily Select Templates for Website Content."
+    },
+    {
+      "title": "2.Describe topic",
+      "desc": "All Feature available features in Essentials."
+    },
+    {
+      "title": "3.Generate content",
+      "desc": "Popular Feature available features in Essentials."
+    }
+  ],
+  "pricing": [
+    {
+      "title": "Basic",
+      "price": 0,
+      "text": "",
+      "subTitle": "Forever",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "21,000 Words per Month",
+          "isMinus": false
+        },
+        {
+          "text": "Maintain Formatting",
+          "isMinus": false
+        },
+        {
+          "text": "Upto 300 Word per article",
+          "isMinus": false
+        },
+        {
+          "text": "Beat ZeroGPT Detector",
+          "isMinus": false
+        },
+        {
+          "text": "10+ Languages",
+          "isMinus": false
+        },
+        {
+          "text": "Email Support",
+          "isMinus": false
+        }
+      ]
+    },
+    {
+      "title": "Business",
+      "price": 10,
+      "text": "",
+      "subTitle": "USD Per Month",
+      "isActive": true,
+      "subItem": [
+        {
+          "text": "50,000 Words per Month",
+          "isMinus": false
+        },
+        {
+          "text": "All Basic Features",
+          "isMinus": false
+        },
+        {
+          "text": "Upto 1500 Word per article",
+          "isMinus": false
+        },
+        {
+          "text": "Access to Lightning mode",
+          "isMinus": false
+        },
+        {
+          "text": "Priority Support",
+          "isMinus": false
+        }
+      ]
+    },
+    {
+      "title": "Advanced",
+      "price": 34,
+      "text": "",
+      "subTitle": "USD Per Month",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "200,000 Words Per Month",
+          "isMinus": false
+        },
+        {
+          "text": "All Business Features",
+          "isMinus": false
+        },
+        {
+          "text": "Access to Undetectable Content Generator",
+          "isMinus": false
+        },
+        {
+          "text": "Dedicated Support",
+          "isMinus": false
+        }
+      ]
+    },
+    {
+      "title": "Enterprise",
+      "price": 75,
+      "text": "",
+      "subTitle": "USD Per Month",
+      "isActive": false,
+      "subItem": [
+        {
+          "text": "500,000 Words Per Month",
+          "isMinus": false
+        },
+        {
+          "text": "All Advanced Features",
+          "isMinus": false
+        },
+        {
+          "text": "Access to API",
+          "isMinus": false
+        },
+        {
+          "text": "Dedicated Support",
+          "isMinus": false
+        }
+      ]
+    }
+  ],
+  "accordion": [
+    {
+      "title": "What is OneClickHuman, and how does it work?",
+      "desc": "OneClickHuman converts Al-generated content into text that resembles human writing, preserving the original formatting and correct grammar. It also bypasses several Al detection tools, such as ZeroGPT and GPTZero.",
+      "isExpand": true
+    },
+    {
+      "title": "Is it possible to use OneClickHuman for multiple languages?",
+      "desc": "Absolutely. Our software supports more than 10 languages, enabling you to engage with a global audience effectively.",
+      "isExpand": false
+    },
+    {
+      "title": "Does OneClickHuman preserve my content's original formatting?",
+      "desc": "Absolutely. We maintain all your content's original formatting, including headings, bullet points, hyperlinks, and more.",
+      "isExpand": false
+    },
+    {
+      "title": "How do I get customer support?",
+      "desc": "Email or live chat. Business, Advanced, and Enterprise plans include priority support.",
+      "isExpand": false
+    },
+    {
+      "title": "Is my data safe with OneClickHuman?",
+      "desc": "Yes. We prioritize data security and privacy; your content is encrypted and never shared.",
+      "isExpand": false
+    },
+    {
+      "title": "How does OneClickHuman handle my data?",
+      "desc": "We store your content only for the time needed to process and humanize it. Once this is complete, any temporary copies are automatically purged from our servers.",
+      "isExpand": false
+    },
+    {
+      "title": "Is OneClickHuman GDPR-compliant?",
+      "desc": "Yes. We comply with GDPR and other relevant data protection regulations. We never share or sell your data to third parties, and we use encryption to secure all user content.",
+      "isExpand": false
+    },
+    {
+      "title": "Can you provide a Data Processing Agreement (DPA)?",
+      "desc": "If you require a formal DPA for compliance purposes, our team can provide one upon request to ensure you meet internal or regulatory requirements.",
+      "isExpand": false
+    }
+  ]
+}
