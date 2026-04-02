@@ -1,17 +1,11 @@
-import BackToTop from "./backToTop";
-import HomePage from "./home/page";
+import HomePage from "@/components/cars24/HomePage";
 
 export const metadata = {
-  title: "Free AI to Human Content Converter - No Errors | OneClickHuman",
-  description: "Convert AI Content and make it human in just one click. This free to use tool, humanizes AI content and makes it undetectable.",
+  title: "Cars24 UAE: Buy & Sell Used Cars | Second-hand Cars in UAE",
+  description:
+    "Cars24-inspired frontend clone built with Next.js, JavaScript, and Tailwind CSS. Browse used cars, sell a car, explore car loans, and book servicing.",
 };
 
-export default async function Home() {
-
-  return (
-    <main>
-      <HomePage />
-      <BackToTop />
-    </main>
-  );
+export default function Home() {
+  return <HomePage />;
 }

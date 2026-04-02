@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --surface: #f8fafc;
+  --surface-strong: #ffffff;
+  --border: #e2e8f0;
+  --brand-blue: #0f3cc9;
+  --brand-blue-dark: #082582;
+  --brand-blue-soft: #e7eeff;
+  --brand-orange: #ff6b00;
+  --text-strong: #0f172a;
+  --text-muted: #475569;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top right, rgba(15, 60, 201, 0.12), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(255, 107, 0, 0.12), transparent 24%),
+    linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
+  color: var(--text-strong);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .site-container {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-space {
+    @apply py-12 sm:py-16 lg:py-20;
+  }
+
+  .soft-card {
+    @apply rounded-[2rem] border border-slate-200 bg-white shadow-[0_24px_80px_rgba(15,23,42,0.08)];
+  }
+
+  .soft-card-sm {
+    @apply rounded-[1.5rem] border border-slate-200 bg-white shadow-[0_18px_48px_rgba(15,23,42,0.08)];
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-[#0f3cc9] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#082582];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-900 transition hover:border-slate-400 hover:bg-slate-100;
+  }
+
+  .pill {
+    @apply inline-flex items-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow-sm;
+  }
+
+  .pill-active {
+    @apply border-slate-900 bg-slate-900 text-white;
+  }
+
+  .eyebrow {
+    @apply text-sm font-semibold uppercase tracking-[0.28em] text-[#0f3cc9];
+  }
+
+  .section-title {
+    @apply max-w-3xl text-3xl font-bold tracking-tight text-slate-950 sm:text-4xl lg:text-5xl;
+  }
+
+  .section-copy {
+    @apply mt-4 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg;
+  }
+
+  .hero-surface {
+    background:
+      radial-gradient(circle at top right, rgba(15, 60, 201, 0.16), transparent 32%),
+      radial-gradient(circle at bottom left, rgba(255, 107, 0, 0.14), transparent 24%),
+      linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  }
+
+  .image-overlay {
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0) 5%, rgba(15, 23, 42, 0.78) 100%);
+  }
+
+  .blue-glow {
+    background:
+      radial-gradient(circle at top left, rgba(15, 60, 201, 0.14), transparent 30%),
+      linear-gradient(180deg, #ffffff 0%, #f7f9ff 100%);
+  }
+
+  .grid-dots {
+    background-image: radial-gradient(rgba(15, 60, 201, 0.12) 1px, transparent 1px);
+    background-size: 16px 16px;
+  }
+
+  .title-balance {
+    text-wrap: balance;
+  }
+}
