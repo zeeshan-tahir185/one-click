@@ -1,13 +1,25 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    async rewrites() {
-      return [
-        {
-          source: '/blog/:path*', // Match requests starting with /blog
-          destination: 'https://blog.oneclickhuman.com/:path*', // Replace with your WordPress URL
-        },
-      ];
-    },
-  };
-  
-  export default nextConfig;
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "static-cdn.cars24.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media-ae.cars24.com",
+      },
+    ],
+  },
+  async rewrites() {
+    return [
+      {
+        source: "/blog/:path*",
+        destination: "https://blog.oneclickhuman.com/:path*",
+      },
+    ];
+  },
+};
+
+export default nextConfig;

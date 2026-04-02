@@ -1,16 +1,20 @@
-import SignUpPage from "./index";
+import PublicPage from "@/components/cars24/PublicPage";
 
 export const metadata = {
-  title: "Sign up - One Click Human",
-  description: "",
+  title: "Create account | Cars24 Clone",
+  description: "Join the Cars24-inspired frontend experience.",
 };
 
-const SingUpLayout = () => {
+export default function SignUpPage() {
   return (
-    <>
-      <SignUpPage />
-    </>
+    <PublicPage
+      eyebrow="Create account"
+      title="Create your account to continue"
+      description="Set up an account to save cars, track bookings, and continue your buy or sell journey inside this Cars24-inspired frontend clone."
+      actions={[
+        { label: "Browse used cars", href: "/buy-used-cars-dubai" },
+        { label: "Sign in instead", href: "/signin", variant: "secondary" },
+      ]}
+    />
   );
-};
-
-export default SingUpLayout;
+}
