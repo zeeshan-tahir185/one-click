@@ -1,4 +1,4 @@
-// File: D:\client projects\muzamil project\oneclickhuman-live-main\app\module\page.jsx
+// File: /workspace/app/module/page.jsx
 import * as entry from '../../../../app/module/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

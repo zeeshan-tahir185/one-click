@@ -1,0 +1,562 @@
+export const homePageData = {
+  hero: {
+    eyebrow: "Used cars without compromises",
+    title: "A simple way to buy, sell and trade-in",
+    description:
+      "Explore inspected used cars, get financing help, sell your current car, and manage servicing from one Cars24-style experience built in Next.js.",
+    image:
+      "https://static-cdn.cars24.com/prod/cms/2026/03/07/9af057d6-4065-4446-ab04-5e9f32750633desktop.webp",
+    actions: [
+      { label: "Browse used cars", href: "/buy-used-cars-dubai" },
+      { label: "Sell your car", href: "/sell-used-car", variant: "secondary" },
+    ],
+    stats: [
+      { value: "1600+", label: "used cars in Dubai" },
+      { value: "30 days", label: "return policy" },
+      { value: "0 down", label: "available on select cars" },
+    ],
+  },
+  quickHighlights: [
+    {
+      title: "Buy a car",
+      description: "Browse certified used cars with quality checks and easy test drives.",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/07/42e62cdd-9c7b-414b-99f0-d47bd37d61d9icons.png",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      title: "Sell a car",
+      description: "Get valuation, inspection, and payment support in one flow.",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/07/70c0fd0e-1451-49ab-92b8-900051892aecicons%20%281%29.png",
+      href: "/sell-used-car",
+    },
+    {
+      title: "Get a loan",
+      description: "Check EMI affordability and understand the loan journey.",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/07/8ca6d164-c46d-4d7f-b30a-05b7874b8761icons%20%282%29.png",
+      href: "/car-loan",
+    },
+    {
+      title: "Book service",
+      description: "Choose maintenance packages with pickup and drop support.",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/07/c1a61029-98b6-4e73-babd-268e94bac7c4icons%20%283%29.png",
+      href: "/car-servicing",
+    },
+  ],
+  luxuryCars: [
+    {
+      tag: "1.99% interest rate*",
+      year: "2021",
+      name: "Toyota Prado",
+      variant: "GXR • Semi Loaded",
+      km: "117,928 km",
+      spec: "GCC",
+      highlight: "Power packed",
+      price: "126,699",
+      emi: "1,925 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/c159f769-6f02-4d77-bba9-7cf684f565ed/50437338-180d-4be9-9b81-ce7b6d7b1b20/slot/camera-Front-Left.jpg",
+      href: "https://www.cars24.ae/buy-used-toyota-prado-2021-cars-dubai-9718305699/",
+    },
+    {
+      tag: "Coming soon",
+      year: "2023",
+      name: "Jeep Grand Cherokee L",
+      variant: "Limited • Semi Loaded",
+      km: "74,124 km",
+      spec: "GCC",
+      highlight: "Great condition",
+      price: "118,599",
+      emi: "1,802 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/d5ada08c-2402-4a7c-9576-574e45195665/005429e2-6121-4aaa-b72d-d0cab0f1c504/slot/camera-Front-Left.jpg",
+      href: "https://www.cars24.ae/buy-used-jeep-grand-cherokee-l-2023-cars-dubai-9714839192/",
+    },
+    {
+      tag: "Coming soon",
+      year: "2025",
+      name: "Ram 1500",
+      variant: "Bighorn • Fully Loaded",
+      km: "27,033 km",
+      spec: "GCC",
+      highlight: "Manufacturer warranty",
+      price: "140,590",
+      emi: "2,137 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/ec1e1945-e205-435c-911b-fd2d95ad839b/9214e392-1ee8-49ad-8764-be03ce41d046/slot/camera-Front-Left.jpg",
+      href: "https://www.cars24.ae/buy-used-ram-1500-2025-cars-dubai-9714839045/",
+    },
+    {
+      tag: "Coming soon",
+      year: "2023",
+      name: "GMC Acadia",
+      variant: "AT4 • Semi Loaded",
+      km: "56,131 km",
+      spec: "GCC",
+      highlight: "Cruise control",
+      price: "82,695",
+      emi: "1,257 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/e9cb63c6-aacb-481f-b5d5-ebd7eb7974ff/f426be45-4874-4d89-bcb5-e716dfe2372a/slot/camera-Front-Left.jpg",
+      href: "https://www.cars24.ae/buy-used-gmc-acadia-2023-cars-dubai-9714834847/",
+    },
+    {
+      tag: "1.99% interest rate*",
+      year: "2022",
+      name: "Toyota Land Cruiser",
+      variant: "GXR • Semi Loaded",
+      km: "64,095 km",
+      spec: "GCC",
+      highlight: "Great condition",
+      price: "192,999",
+      emi: "2,933 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/30533f92-f199-4025-a206-9bf9c423d950/9489e270-ddff-4888-97c1-43983f1e46d6/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "1.99% interest rate*",
+      year: "2021",
+      name: "Toyota Land Cruiser",
+      variant: "GXR Grand Touring • Semi Loaded",
+      km: "96,555 km",
+      spec: "GCC",
+      highlight: "Power packed",
+      price: "184,799",
+      emi: "2,808 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/54c6fe56-2ffc-46d9-b2c3-cd16160f9bdf/5a260927-0294-443f-ae53-55772b618b0b/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "1.99% interest rate*",
+      year: "2022",
+      name: "Nissan Patrol",
+      variant: "LE Titanium • Fully Loaded",
+      km: "82,159 km",
+      spec: "GCC",
+      highlight: "Power packed",
+      price: "180,499",
+      emi: "2,743 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/a50b2f70-c9d6-4939-b11e-9ef00b807db0/fc78148d-2231-42a4-a90a-5921524c121e/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "1.99% interest rate*",
+      year: "2023",
+      name: "Toyota Prado",
+      variant: "EXR • Basic",
+      km: "91,263 km",
+      spec: "GCC",
+      highlight: "Power packed",
+      price: "133,099",
+      emi: "2,023 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/6bd208ba-798a-4305-b246-de32095a76d4/88d50c2e-1211-41e6-833c-976edcab74b0/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "1.99% interest rate*",
+      year: "2022",
+      name: "Nissan Patrol",
+      variant: "LE Platinum City • Fully Loaded",
+      km: "82,412 km",
+      spec: "GCC",
+      highlight: "Manufacturer warranty",
+      price: "192,599",
+      emi: "2,927 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/3ac4e55c-78e9-48c2-947e-97e1a77a8833/795dfde5-3e79-4665-b78d-fbd7af0208fb/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "1.99% interest rate*",
+      year: "2023",
+      name: "Toyota Land Cruiser",
+      variant: "GXR • Semi Loaded",
+      km: "84,020 km",
+      spec: "GCC",
+      highlight: "Manufacturer warranty",
+      price: "214,799",
+      emi: "3,264 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/dfc9afb9-d810-4483-a454-cda4d2e98167/0542b8f0-ed54-40eb-8f6a-1c76e040f0f6/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+  ],
+  matchedNeeds: [
+    {
+      title: "As good as new",
+      href: "https://www.cars24.ae/buy-used-cars-dubai?gf=category:(sf=asGoodAsNew:true)",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/19/f994b913-1c59-4fa7-b365-4b482d5290e2as_good_as_new.png",
+    },
+    {
+      title: "Budget friendly",
+      href: "https://www.cars24.ae/buy-used-cars-dubai?gf=category:(sf=budgetFriendly:true)",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/19/0cc9d922-921f-41c2-922d-90635e976539budget_friendly.png",
+    },
+    {
+      title: "Latest SUVs",
+      href: "https://www.cars24.ae/buy-used-cars-dubai?gf=category:(sf=latestSUVs:true)",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/19/27d857c0-d3aa-4240-97c5-38609c017d90latest_suv.png",
+    },
+    {
+      title: "Affordable luxury",
+      href: "https://www.cars24.ae/buy-used-cars-dubai?gf=category:(sf=luxuryInBudget:true)",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/19/0be2907f-fdee-4bba-aadb-54170d3d7071luxury_in_budget.png",
+    },
+    {
+      title: "Value picks",
+      href: "https://www.cars24.ae/buy-used-cars-dubai?gf=category:(sf=onSale:true)",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/19/79edb2d5-caa9-4bea-ace5-5f16f409c1eahot_deals.png",
+    },
+    {
+      title: "Premium sedans",
+      href: "https://www.cars24.ae/buy-used-cars-dubai?gf=category:(sf=premiumSedan:true)",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/19/b871d75e-3e59-43bc-ae9d-cea7c6027bafassured_cars.png",
+    },
+  ],
+  offerBanners: [
+    {
+      title: "Flexible downpayment plans",
+      description: "Finance options tailored to your budget and lender profile.",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/02/09/4f030f66-f7aa-4763-ae1c-a5701e8f3e3aBANNERS%20%288%29.png",
+      href: "/car-loan",
+    },
+    {
+      title: "Make room for your next upgrade",
+      description: "Trade in or sell your current car directly through Cars24.",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/02/09/6a972d01-7389-464f-a325-291e59227137BANNERS%20%289%29.png",
+      href: "/sell-used-car",
+    },
+    {
+      title: "Servicing support after purchase",
+      description: "Keep your car in shape with certified partners and pickup/drop.",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/02/09/eef401b3-e310-4e13-8aa4-ffd279b80920BANNERS%20%285%29.png",
+      href: "/car-servicing",
+    },
+    {
+      title: "Used cars worth the test drive",
+      description: "Find new arrivals added recently across price bands.",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/02/09/39f19640-07e8-4e72-9cf3-c0869e67ebadBANNERS%20%287%29.png",
+      href: "/buy-used-cars-dubai",
+    },
+  ],
+  arrivalTabs: [
+    "Less than AED 40k",
+    "AED 40k - AED 60k",
+    "AED 60k - AED 100k",
+    "Above AED 100k",
+  ],
+  newArrivals: [
+    {
+      tag: "Coming soon",
+      year: "2023",
+      name: "Nissan Sunny",
+      variant: "SV • Semi Loaded",
+      km: "96,736 km",
+      spec: "GCC",
+      highlight: "Fuel efficient",
+      price: "25,190",
+      emi: "395 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/cd09e420-3732-4781-8624-a62d14dac5ee/1a0d530c-64e0-4892-97c4-9403eeb2c3b2/slot/camera-Front-Left.jpg",
+      href: "https://www.cars24.ae/buy-used-nissan-sunny-2023-cars-dubai-9714839190/",
+    },
+    {
+      tag: "In demand",
+      year: "2023",
+      name: "MG ZS",
+      variant: "STD • Basic",
+      km: "41,436 km",
+      spec: "GCC",
+      highlight: "Great condition",
+      price: "34,499",
+      emi: "541 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/c6805160-0cda-4aa6-9567-0d47a612ecfa/018361f0-b1ae-4553-b928-350da5360838/slot/camera-Front-Left.jpg",
+      href: "https://www.cars24.ae/buy-used-mg-zs-2023-cars-dubai-9714840301/",
+    },
+    {
+      tag: "Hot offer",
+      year: "2024",
+      name: "JAC JS4",
+      variant: "Intelligent • Basic",
+      km: "68,346 km",
+      spec: "GCC",
+      highlight: "Great condition",
+      price: "38,290",
+      emi: "600 /mo* for 5 yrs, zero downpay",
+      location: "Jebel Ali, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/f5f49e55-91a9-40ff-ab5c-306da750fd20/ff20b175-63cd-488c-9f8f-274ce36c9c70/slot/camera-Front-Left.jpg",
+      href: "https://www.cars24.ae/buy-used-jac-js4-2024-cars-dubai-9718244971/",
+    },
+    {
+      tag: "Coming soon",
+      year: "2023",
+      name: "JAC J7",
+      variant: "Intelligent • Semi Loaded",
+      km: "63,965 km",
+      spec: "GCC",
+      highlight: "Boosted engine",
+      price: "33,590",
+      emi: "527 /mo* for 5 yrs, zero downpay",
+      location: "Jebel Ali, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/9c323d65-1018-496f-9e45-f9c8594a913e/da43f1d7-8e73-4cd6-b913-a2f50ab574ae/slot/camera-Front-Left.jpg",
+      href: "https://www.cars24.ae/buy-used-jac-j7-2023-cars-dubai-9714839224/",
+    },
+    {
+      tag: "Hot offer",
+      year: "2023",
+      name: "Suzuki Dzire",
+      variant: "GLX • Fully Loaded",
+      km: "108,469 km",
+      spec: "GCC",
+      highlight: "Fuel efficient",
+      price: "24,090",
+      emi: "378 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/6cae1b49-89d5-4016-b349-7164b0957743/a981bb15-b715-4a88-b7de-5784bb098f82/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "In demand",
+      year: "2024",
+      name: "Suzuki Ciaz",
+      variant: "GL • Basic",
+      km: "95,292 km",
+      spec: "GCC",
+      highlight: "Fuel efficient",
+      price: "28,299",
+      emi: "444 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/5781fed1-7718-49bc-9974-5aa18b70f611/af1e867e-a24b-46d0-af63-969a8d0b5bef/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "In demand",
+      year: "2023",
+      name: "Nissan Sunny",
+      variant: "SV • Basic",
+      km: "99,348 km",
+      spec: "GCC",
+      highlight: "Fuel efficient",
+      price: "25,399",
+      emi: "398 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/43d5497e-be44-47dc-a709-1aca3c164c4b/d3eadbc6-f1e0-401c-b654-ebb3a7f3ae78/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "Hot offer",
+      year: "2022",
+      name: "Hyundai Accent",
+      variant: "Smart • Basic",
+      km: "103,727 km",
+      spec: "GCC",
+      highlight: "Cruise control",
+      price: "30,890",
+      emi: "484 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/b67a7b63-8de5-49f8-b427-4c63e55a1175/343651d6-3459-43d7-bc9e-4a60cb86f8a5/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "In demand",
+      year: "2023",
+      name: "JAC S3",
+      variant: "Intelligent • Semi Loaded",
+      km: "80,154 km",
+      spec: "GCC",
+      highlight: "Sunroof",
+      price: "28,899",
+      emi: "453 /mo* for 5 yrs, zero downpay",
+      location: "Jebel Ali, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/ea4067d1-8f82-42e0-acc8-6c7ac4809573/355d2d1d-f153-42a3-aa29-7406327f65c8/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+    {
+      tag: "In demand",
+      year: "2023",
+      name: "JAC S3",
+      variant: "Luxury • Fully Loaded",
+      km: "72,360 km",
+      spec: "GCC",
+      highlight: "Sunroof",
+      price: "28,799",
+      emi: "452 /mo* for 5 yrs, zero downpay",
+      location: "Millennium Place Hotel Barsha, Dubai",
+      image:
+        "https://media-ae.cars24.com/hello-ar/uploads/77a6f9ed-0ba8-4bc2-bea7-3f9494b60870/05c6b0e1-83b8-4fba-b9ec-0d51729acbba/slot/camera-Front-Left.jpg",
+      href: "/buy-used-cars-dubai",
+    },
+  ],
+  sellSteps: [
+    {
+      title: "Sell any car, hassle free",
+      description: "Sell directly to Cars24 or list on the platform for better reach.",
+    },
+    {
+      title: "Quick vehicle inspection",
+      description: "Experts inspect the car and help you understand the best next step.",
+    },
+    {
+      title: "Transparent payments",
+      description: "We help with pricing, documentation, and a smooth ownership transfer.",
+    },
+  ],
+  bodyTypes: [
+    {
+      title: "SUV",
+      href: "https://www.cars24.ae/buy-used-suv-cars-dubai/",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/08/e58215e4-c28a-47ee-80d1-d0e08c916a04SUVs.png",
+    },
+    {
+      title: "Sedan",
+      href: "https://www.cars24.ae/buy-used-sedan-cars-dubai/",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/02/03/45b18bf0-ec1b-4c27-a4af-9e23c3266434Property%201%3DVariant2%20%281%29.png",
+    },
+    {
+      title: "Hatchback",
+      href: "https://www.cars24.ae/buy-used-hatchback-cars-dubai/",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/02/03/3f43c3d8-acea-4f39-ad11-6f79a77052abProperty%201%3DVariant3.png",
+    },
+    {
+      title: "Coupe",
+      href: "https://www.cars24.ae/buy-used-coupe-cars-dubai/",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/02/03/cc396fe6-bc56-494a-8d22-8f09cdac7d16Property%201%3DVariant4.png",
+    },
+    {
+      title: "Convertible",
+      href: "https://www.cars24.ae/buy-used-convertible-cars-dubai/",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/01/08/2aa84887-8645-4069-8aa8-d6714ac70313convertible.png",
+    },
+    {
+      title: "MPV",
+      href: "https://www.cars24.ae/buy-used-mpv-cars-dubai/",
+      image:
+        "https://static-cdn.cars24.com/qa/cms/2026/02/03/0817849e-5a58-4f65-8006-af355f2509f8Property%201%3DVariant7.png",
+    },
+  ],
+  whyChoose: [
+    {
+      title: "Verified quality, every time",
+      description: "Inspected and refurbished to top standards before listing.",
+    },
+    {
+      title: "30-day return policy",
+      description: "Live with the car and return it if it is not the right fit.",
+    },
+    {
+      title: "Transparent, hassle-free process",
+      description: "Straightforward documentation and guided support from start to finish.",
+    },
+    {
+      title: "Fair pricing you can trust",
+      description: "Data-backed valuations and competitive finance-ready pricing.",
+    },
+  ],
+  buySteps: [
+    {
+      title: "Test drive your car for free",
+      description:
+        "Choose a home test drive or visit the Cars24 yard and experience the car before you decide.",
+    },
+    {
+      title: "Secure the car online",
+      description:
+        "Browse, compare, and reserve a car from the comfort of home with easy follow-up support.",
+    },
+  ],
+  helpCards: [
+    {
+      title: "Call us",
+      description: "You can reach us at 8001110900 from 7:00 AM to 6:00 PM",
+      href: "tel:8001110900",
+    },
+    {
+      title: "Email us",
+      description: "Need help? Write to us at care.uae@cars24.com",
+      href: "mailto:care.uae@cars24.com",
+    },
+    {
+      title: "Visit us",
+      description:
+        "16th floor, Millennium Place Hotel, First Al Khail St, Barsha Heights, Dubai, UAE",
+      href: "https://share.google/r8ybLeGMS8GGPReYi",
+      external: true,
+    },
+  ],
+  faqs: [
+    {
+      question: "How can I buy a car on Cars24?",
+      answer:
+        "Browse listings, compare specifications, book a test drive, and continue with booking once you find the right car. Cars24 also helps coordinate finance and documentation support for eligible purchases.",
+    },
+    {
+      question: "Are all the cars certified by Cars24?",
+      answer:
+        "Cars24-certified inventory goes through a technical inspection and quality process. The exact warranty, return window, and coverage can vary depending on the category of the car.",
+    },
+    {
+      question: "Can I get my Cars24 purchase financed?",
+      answer:
+        "Yes. Cars24 works with finance partners and guides you through eligibility, documents, and approval flow for used car financing in the UAE.",
+    },
+    {
+      question: "What documents will I need during purchase?",
+      answer:
+        "Typical requirements include Emirates ID, passport with valid residence visa, and driving license. Finance applications may additionally require salary certificates and bank statements depending on your profile.",
+    },
+    {
+      question: "How does the trial and return process work?",
+      answer:
+        "Eligible Cars24-certified cars may come with a trial or return policy. The car should be returned within the allowed period and in an acceptable condition as per the policy terms.",
+    },
+  ],
+  article: {
+    title: "Buying a used car in UAE - complete guide",
+    description:
+      "Buying a car is not just a decision but an emotion. Explore Cars24's buyer guide to understand how to shortlist, inspect, finance, and complete the purchase of a used car in the UAE.",
+    link: "https://www.cars24.ae/blog/buying-a-used-car-in-uae-detailed-guide/",
+    linkLabel: "Read the detailed guide",
+  },
+};

@@ -1,17 +1,11 @@
-import HomePage from "./index";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
-import { redirect } from "next/navigation";
+import HomePage from "@/components/cars24/HomePage";
 
-export default async function HomePageLayout() {
-        // Retrieve session server-side
-        const session = await getServerSession(authOptions);
-        if (session) {
-          redirect('/humanizer');
-        }
-  return (
-    <>
-      <HomePage />
-    </>
-  );
+export const metadata = {
+  title: "Cars24 UAE Home | Cars24 Clone",
+  description:
+    "Cars24-inspired homepage clone built with Next.js, JavaScript, and Tailwind CSS.",
 };
+
+export default function HomePageRoute() {
+  return <HomePage />;
+}
